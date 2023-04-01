@@ -1,13 +1,13 @@
 import Navbar from "./navbar";
 import Billing from "./Billing";
-import CardDeal from "./cardDeal";
-import Business from "./business";
-import Clients from "./clients";
+import CardDeal from "./CardDeal";
+import Business from "./Business";
+import Clients from "./Clients";
 import CTA from "./CTA";
-import Stats from "./stats";
+import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
-import Hero from "./hero";
+import Hero from "./Hero";
 
 export {
   Navbar,
