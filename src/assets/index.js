@@ -24,8 +24,11 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import DarkCard from "./FastHacksCardDarkGreen-10.png"
-
+import weirdElement from "./FastHacksWeirdThing-13.png"
+import moon from "./moon.svg"
 export {
+  moon,
+  weirdElement,
   DarkCard,
   airbnb,
   bill,

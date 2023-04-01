@@ -3,25 +3,56 @@ import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
 
 const Testimonials = () => (
-  <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
-    <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
-
-    <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-      <h2 className={styles.heading2}>
-        What People are <br className="sm:block hidden" /> saying about us
-      </h2>
-      <div className="w-full md:mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-          Everything you need to accept card payments and grow your business
-          anywhere on the planet.
-        </p>
+  <div className="container mx-auto">
+      <div className="relative wrap overflow-hidden p-10 h-full">
+        <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style={{ left: '50%' }}></div>
+        
+        <div className="mb-8 flex justify-between items-center w-full right-timeline">
+          <div className="order-1 w-5/12"></div>
+          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl rounded-full w-20 h-20"><h1 className="mx-auto font-semibold text-lg text-white">1</h1></div>
+          <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+            <h3 className="mb-3 font-bold text-gray-800 text-xl">Important Date 1</h3>
+            <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Description of important date 1</p>
+          </div>
+        </div>
+  
+        <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+          <div className="order-1 w-5/12"></div>
+          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl rounded-full w-20 h-20"><h1 className="mx-auto font-semibold text-lg text-white">2</h1></div>
+          <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+            <h3 className="mb-3 font-bold text-gray-800 text-xl">Important Date 2</h3>
+            <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Description of important date 2</p>
+          </div>
+        </div>
+  
+        <div className="mb-8 flex justify-between items-center w-full right-timeline">
+          <div className="order-1 w-5/12"></div>
+          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl rounded-full w-20 h-20"><h1 className="mx-auto font-semibold text-lg text-white">3</h1></div>
+          <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+            <h3 className="mb-3 font-bold text-gray-800 text-xl">Important Date 3</h3>
+            <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Description of important date 3</p>
+          </div>
+        </div>
+  
+        <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+          <div className="order-1 w-5/12"></div>
+          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl rounded-full w-20 h-20"><h1 className="mx-auto font-semibold text-lg text-white">4</h1></div>
+          <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+          <h3 className="mb-3 font-bold text-gray-800 text-xl">Important Date 4</h3>
+            <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Description of important date 4</p>
+          </div>
+        </div>
+  
+        <div className="mb-8 flex justify-between items-center w-full right-timeline">
+          <div className="order-1 w-5/12"></div>
+          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl rounded-full w-20 h-20"><h1 className="mx-auto font-semibold text-lg text-white">5</h1></div>
+          <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+            <h3 className="mb-3 font-bold text-gray-800 text-xl">Important Date 5</h3>
+            <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Description of important date 5</p>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
-      {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
-    </div>
-  </section>
 );
 
 export default Testimonials;
