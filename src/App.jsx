@@ -14,7 +14,7 @@ import {
 } from "./components";
 const App = () => {
   return (
-    <div className="bg-[#F0EAD6] w-full overflow-hidden">
+    <div className="bg-[#E9DCC9] w-full overflow-hidden">
       {/*This is the navbar section*/}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
@@ -23,7 +23,7 @@ const App = () => {
       </div>
 
       {/*This is the hero section*/}
-      <div className={`bg-[#F0EAD6] ${styles.flexStart}`}>
+      <div className={`bg-[#E9DCC9] ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
@@ -31,7 +31,7 @@ const App = () => {
 
       <div className={`bg-[#F0EAD6] ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />{" "}
+          <Business /> <Billing /> <CardDeal /> <Testimonials />{" "}
           <Clients /> <CTA /> <Footer />
         </div>
       </div>

@@ -6,7 +6,7 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./FastHacksLogoNoBG.png";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
+import robot from "./FastHacksSmallerLogoNoBG.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -23,8 +23,10 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import DarkCard from "./FastHacksCardDarkGreen-10.png"
 
 export {
+  DarkCard,
   airbnb,
   bill,
   binance,
