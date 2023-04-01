@@ -1,5 +1,5 @@
 import styles from "../style";
-import { logo } from "../assets";
+import { logo, yellowCard, redCard} from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
@@ -7,12 +7,12 @@ const Footer = () => (
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
-          src={logo}
-          alt="hoobank"
-          className="w-[266px] h-[72.14px] object-contain"
+          src={redCard}
+          alt="FastHacks"
+          className="w-[30%] h-[100%] object-contain"
         />
-        <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          A new way to make the payments easy, reliable and secure.
+        <p className={`text-[#dfdfdf] ${styles.paragraph} mt-4 max-w-[312px]`}>
+          A ramadan-inspired Hackathon From The Programming Club and Google Developers Student Club in IAU.
         </p>
       </div>
 
@@ -26,7 +26,7 @@ const Footer = () => (
               {footerlink.links.map((link, index) => (
                 <li
                   key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+                  className={`font-poppins font-normal text-[18px] leading-[24px] text-[#dfdfdf] hover:text-[#c99797] cursor-pointer ${
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
@@ -40,8 +40,8 @@ const Footer = () => (
     </div>
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-        Copyright Ⓒ 2022 HooBank. All Rights Reserved.
+      <p className="font-poppins font-normal text-center text-[16px] leading-[27px] text-[#919191]">
+        Copyright Ⓒ 2023 Mamdouh. All Rights Reserved.
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6">

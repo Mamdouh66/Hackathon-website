@@ -26,7 +26,21 @@ import people03 from "./people03.png";
 import DarkCard from "./FastHacksCardDarkGreen-10.png"
 import weirdElement from "./FastHacksWeirdThing-13.png"
 import moon from "./moon.svg"
+import somePicture from "./Picture1.png"
+import pc from "./Programming club _ white logo.png"
+import gdsc from "./GDSC IAU- White.png"
+import ccsit from "./CCSIT CLUB WHITE .png"
+import college from "./CCSIT-white.png"
+import yellowCard from "./FastHacksCardYellow.png"
+import redCard from "./FastHacksCardRed.png"
 export {
+  redCard,
+  yellowCard,
+  pc,
+  gdsc,
+  ccsit,
+  college,
+  somePicture,
   moon,
   weirdElement,
   DarkCard,

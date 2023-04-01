@@ -65,6 +65,25 @@
   );
 }
 
+.bg-hero-gradient {
+  background: linear-gradient(
+    180deg,
+    #E9DCC9 42.56%,
+    #c8bfb1 78.47%,
+    #a29c91 91.61%
+  );
+}
+
+.bg-others-gradient {
+  background: linear-gradient(
+    180deg,
+    #a29c91 42.56%,
+    #6c6861 78.47%,
+    #403e3a 91.61%
+  );
+}
+
+
 .bg-gray-gradient {
   background: linear-gradient(
     153.47deg,
@@ -72,6 +91,7 @@
     #14101d 95.11%
   );
 }
+
 
 .bg-discount-gradient {
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);

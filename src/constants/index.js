@@ -13,6 +13,10 @@ import {
   send,
   shield,
   star,
+  pc,
+  gdsc,
+  ccsit,
+  college,
 } from "../assets";
 
 export const navLinks = [
@@ -22,15 +26,15 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "About",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Goals",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "timeline",
+    title: "Timeline",
   },
 ];
 
@@ -155,14 +159,14 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Partner",
+    title: "Accounts",
     links: [
       {
-        name: "Our Partner",
+        name: "Programming Club",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Google Developers Student Club",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
@@ -195,18 +199,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: college,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: pc,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: gdsc,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: ccsit,
   },
 ];
