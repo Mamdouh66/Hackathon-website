@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex justify-between items-center navbar">
-      <img src={logo} alt="FastHacks" className="w-[9%] h-[40%]" />
+      <img src={logo} alt="FastHacks" className="sm:w-[9%] w-[20%] h-[40%]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -36,7 +36,7 @@ const Navbar = () => {
         <div
           className={`${
             !toggle ? "hidden" : "flex"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-6 bg-[#6B705C] absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
