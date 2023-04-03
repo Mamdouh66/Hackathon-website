@@ -17,6 +17,7 @@ import {
   gdsc,
   ccsit,
   college,
+  hackathonat,
 } from "../assets";
 
 export const navLinks = [
@@ -175,24 +176,14 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://www.twitter.com/MamdouhCS",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/mamdouh-aldhafeeri-631a93241/",
   },
 ];
 
@@ -212,5 +203,9 @@ export const clients = [
   {
     id: "client-4",
     logo: ccsit,
+  },
+  {
+    id: "client-5",
+    logo: hackathonat,
   },
 ];

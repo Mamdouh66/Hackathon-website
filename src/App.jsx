@@ -33,7 +33,7 @@ const App = () => {
           <Business /> <Billing /> <CardDeal /> <Testimonials />{" "}
         </div>
       </div>
-      <div className={`bg-[#303030] ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-[#26281E] ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Clients /> <CTA /> <Footer />
         </div>
