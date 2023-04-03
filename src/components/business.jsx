@@ -20,7 +20,6 @@ const Business = () =>  (
       difference in people's lives during Ramadan and after the holy
       month has finished.
       </p>
-      <Button styles={`mt-10`} />
     </div>
 
   </section>
