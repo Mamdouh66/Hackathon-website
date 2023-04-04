@@ -145,11 +145,11 @@ export const clients = [
   },
   {
     id: "client-2",
-    logo: pc,
+    logo: gdsc,
   },
   {
     id: "client-3",
-    logo: gdsc,
+    logo: pc,
   },
   {
     id: "client-4",
