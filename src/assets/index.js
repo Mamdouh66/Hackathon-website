@@ -34,7 +34,9 @@ import college from "./CCSIT-white.png"
 import yellowCard from "./FastHacksCardYellow.png"
 import redCard from "./FastHacksCardRed.png"
 import  hackathonat from "./HackathonatLogo.png"
+import bayan from "./BayanLogo.png"
 export {
+  bayan,
   hackathonat,
   redCard,
   yellowCard,

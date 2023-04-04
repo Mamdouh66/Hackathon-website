@@ -28,7 +28,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className={`bg-[#B7B7A4] ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-[#FFFCCC] ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Business /> <Billing /> <CardDeal /> <Testimonials />{" "}
         </div>

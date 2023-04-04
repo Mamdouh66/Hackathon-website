@@ -18,6 +18,7 @@ import {
   ccsit,
   college,
   hackathonat,
+  bayan,
 } from "../assets";
 
 export const navLinks = [
@@ -114,11 +115,11 @@ export const footerLinks = [
     links: [
       {
         name: "Programming Club",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://twitter.com/Programming_Iau",
       },
       {
         name: "Google Developers Student Club",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://twitter.com/GDSC_IAU",
       },
     ],
   },
@@ -157,5 +158,9 @@ export const clients = [
   {
     id: "client-5",
     logo: hackathonat,
+  },
+  {
+    id: "client-6",
+    logo: bayan,
   },
 ];

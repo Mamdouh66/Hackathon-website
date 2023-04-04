@@ -5,7 +5,7 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className="flex-[1] flex flex-col justify-start mr-10">
+      <div className="flex-[1] flex flex-col justify-center mr-10">
         <img
           src={redCard}
           alt="FastHacks"
@@ -30,7 +30,7 @@ const Footer = () => (
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
-                  {link.name}
+                  <a href={`${link.link}`}>{link.name}</a>
                 </li>
               ))}
             </ul>

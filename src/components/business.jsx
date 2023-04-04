@@ -11,7 +11,7 @@ const Business = () =>  (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        About FastHacks
+        About <span className="text-gradient">FastHacks</span>{" "}
       </h2>
       <p className={`${styles.paragraph} max-w-[450px] mt-5`}>
       FastHacks (Fast meaning to fast, and Hacks from
@@ -19,6 +19,10 @@ const Business = () =>  (
       the box and produce innovative ideas that can make a real
       difference in people's lives during Ramadan and after the holy
       month has finished.
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       </p>
     </div>
 
