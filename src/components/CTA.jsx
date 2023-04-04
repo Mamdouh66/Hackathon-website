@@ -2,7 +2,7 @@ import styles from "../style";
 import Button from "./Button";
 
 const CTA = () => (
-  <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-[#A5A58D] rounded-[20px] box-shadow`}>
+  <section id="CTA" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-[#A5A58D] rounded-[20px] box-shadow`}>
     <div className="flex-1 flex flex-col">
       <h2 className={styles.heading2}>Innovate with FastHacks NOW!</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>

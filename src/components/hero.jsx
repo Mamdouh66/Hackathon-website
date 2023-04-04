@@ -1,5 +1,6 @@
 import styles from "../style";
 import { robot } from "../assets";
+import Button2 from "./Button2";
 import Button from "./Button";
 
 const Hero = () => {
@@ -28,7 +29,7 @@ const Hero = () => {
           A ramadan-inspired Hackathon From The Programming Club and Google Developers Student Club in IAU
         </p>
         <div className="ss:flex hidden md:mr-4 mr-0">
-            <Button/>
+            <Button2/>
           </div> 
       </div>
 
@@ -40,8 +41,8 @@ const Hero = () => {
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" /> */}
       </div>
 
-      <div className={`ss:hidden ${styles.flexCenter} py-6`}>
-      <Button />
+      <div className={`ss:hidden ${styles.flexCenter} py-6 mb-20`}>
+      <Button2 />
       </div>
     </section>
   );

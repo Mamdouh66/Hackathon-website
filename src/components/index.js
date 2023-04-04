@@ -8,8 +8,10 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./hero";
+import Button2 from "./Button2"
 
 export {
+  Button2,
   Navbar,
   Billing,
   CardDeal,
