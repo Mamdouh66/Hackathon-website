@@ -19,6 +19,7 @@ import {
   college,
   hackathonat,
   bayan,
+  whiteHackathonat,
 } from "../assets";
 
 export const navLinks = [
@@ -145,11 +146,11 @@ export const clients = [
   },
   {
     id: "client-2",
-    logo: gdsc,
+    logo: pc,
   },
   {
     id: "client-3",
-    logo: pc,
+    logo: gdsc,
   },
   {
     id: "client-4",
@@ -157,7 +158,7 @@ export const clients = [
   },
   {
     id: "client-5",
-    logo: hackathonat,
+    logo: whiteHackathonat,
   },
   {
     id: "client-6",
