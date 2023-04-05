@@ -36,7 +36,9 @@ import redCard from "./FastHacksCardRed.png"
 import  hackathonat from "./HackathonatLogo.png"
 import bayan from "./BayanLogo.png"
 import whiteHackathonat from "./hackathonatWhite.png"
+import BayanWhite from "./BayanWhite.png"
 export {
+  BayanWhite,
   whiteHackathonat,
   bayan,
   hackathonat,
