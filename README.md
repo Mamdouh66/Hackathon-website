@@ -1,4 +1,4 @@
-# Hackathon_website
+# https://FastHacks-iau.com/
 
 This repo will hold my code for the hackathon's website
 
