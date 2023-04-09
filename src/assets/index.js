@@ -37,7 +37,9 @@ import  hackathonat from "./HackathonatLogo.png"
 import bayan from "./BayanLogo.png"
 import whiteHackathonat from "./hackathonatWhite.png"
 import BayanWhite from "./BayanWhite.png"
+import shagufWhite from "./ShagufLogoWhite.png"
 export {
+  shagufWhite,
   BayanWhite,
   whiteHackathonat,
   bayan,

@@ -21,6 +21,7 @@ import {
   bayan,
   whiteHackathonat,
   BayanWhite,
+  shagufWhite,
 } from "../assets";
 
 export const navLinks = [
@@ -164,5 +165,9 @@ export const clients = [
   {
     id: "client-6",
     logo: BayanWhite,
+  },
+  {
+    id: "client-7",
+    logo: shagufWhite,
   },
 ];
